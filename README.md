@@ -8,7 +8,7 @@ In this Code Challenge I'm supposed to do basically 2 tasks
 
 ***
 
-## Run on the local machine
+## Run on the local machine ( under development )
 
 - Fork the repo
 - make a folder in the root directory
