@@ -8,7 +8,7 @@ In this Code Challenge I'm supposed to do basically 2 tasks
 
 ***
 
-## Run on the local machine
+## Run on the local machine (under development)
 
 - Fork the repo
 - make a folder in the root directory
@@ -17,7 +17,7 @@ In this Code Challenge I'm supposed to do basically 2 tasks
   
 - go to that directory
 - and run the requirements.txt file <br>
-  `pip3 install -r requirements.txt'
+  `pip3 install -r requirements.txt`
   
 - After all the dependencies are successfully installed
 - Run the index.py file
@@ -26,3 +26,7 @@ In this Code Challenge I'm supposed to do basically 2 tasks
   
 - Upload the image 
 
+***
+Task to be done
+- integrate the Code to the server
+- improves UI
