@@ -36,7 +36,7 @@ if (__name__ == "__main__"):
     app = tornado.web.Application([
 
         ("/", uploadHandler),
-        ("/img/(.*)", tornado.web.StaticFileHandler, {"path" : "img"})   #saves the imgage in the img folder
+        ("/img/(.*)", tornado.web.StaticFileHandler, {"path" : "img"})   #saves the image in the img folder
     ])
 
     # listen a specific port 

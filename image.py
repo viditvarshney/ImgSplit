@@ -1,10 +1,23 @@
 from PIL import Image
 import numpy as np
-import cv2
 import imageio
 import matplotlib.pyplot as plt
+import os
+import glob2
 
-img = imageio.imread('voxconimage.jpg')
+# Taking the latest image modified in the image folder.
+
+ts = 0
+found = None
+for file_name in glob2.glob('/Projects/hd-imaging-Code-Challenge/img/*'):
+    fts = os.path.getmtime(file_name)
+    if fts > ts:
+        ts = fts
+        found = file_name
+
+print(found)
+
+img = imageio.imread(found)
 
 # Split in three channels i.e., RGB
 red = img[:, :, 0]
@@ -13,6 +26,7 @@ blue = img[:, :, 2]
 
 # Plot
 fig, axs = plt.subplots(2,2)
+fig.canvas.set_window_title("Splits the given image into RGB")
 
 cax_00 = axs[0,0].imshow(img)
 cax_01 = axs[0,1].imshow(red, cmap='Reds')
@@ -26,14 +40,17 @@ r_arr = np.asarray(red)
 g_arr = np.asarray(green)
 b_arr = np.asarray(blue)
 
-
+# setting mode to NONE, and merging the image
 imr=Image.fromarray(r_arr,mode=None)
 imb=Image.fromarray(g_arr,mode=None)
 img=Image.fromarray(b_arr,mode=None)
 
 #merge
 merged=Image.merge("RGB",(imr,imb,img))
-merged.show()
+merged.show(title = "Original Image")
+
+# Delete the file automatically after displaying the image
+os.remove(found)             
 
 
 

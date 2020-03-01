@@ -4,10 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
     <title>Hd-Imaging</title>
+    <style>
+        body {
+            background-color: rgba(150, 143, 143, 0.342);
+            text-align: center;
+        }
+
+        form {
+            width: 500px;
+            height: 200px;
+            background-color: #fff;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 150px;
+            max-width: 500px;
+            min-width: 20px;
+            
+            
+        }
+
+        input {
+            margin-top: 75px;
+            cursor: pointer;
+        }
+
+        *{text-decoration:none; list-style:none; margin:0px; padding:0px; outline:none;}
+            body{margin:0px; padding:0px; font-family: 'Open Sans', sans-serif;}
+            section{width:100%; max-width:1200px; margin:0px auto; display:table; position:relative;}
+            header{width:100%; display:table; background-color:#fde428; margin-bottom:50px;}
+            #logo{float:left; font-size:24px; color:#002e5b; font-weight:600; padding:20px 0px;}
+            nav{width:auto; float:left;}
+            nav ul{display:table; float:right;}
+            nav ul li{float:left;}
+            nav ul li:last-child{padding-right:0px;}
+            nav ul li a{color:#002e5b; font-size:18px; padding: 25px 20px; display:inline-block; transition: all 0.5s ease 0s;}
+            nav ul li a:hover{background-color:#002e5b; color:#fde428; transition: all 0.5s ease 0s;}
+            nav ul li a:hover i{color:#fde428; transition: all 0.5s ease 0s;}
+            nav ul li a i{padding-right:10px; color:#002e5b; transition: all 0.5s ease 0s;}
+
+            .toggle-menu ul{display:table; width:25px;}
+            .toggle-menu ul li{width:100%; height:3px; background-color:#002e5b; margin-bottom:4px;}
+            .toggle-menu ul li:last-child{margin-bottom:0px;}
+
+            input[type=checkbox], label{display:none;}
+
+            .content{display:table; margin-bottom:60px; width:900px;}
+            .content h2{font-size:18px; font-weight:500; color:#002e5b; border-bottom:1px solid #fde428; display:table; padding-bottom:10px; margin-bottom:10px;}
+            .content p{font-size:14px; line-height:22px; color:#7c7c7c; text-align:justify;}
+    </style>
 </head>
+
 <body>
+    <header>
+        <section>
+            <a href="https://github.com/camicroscope" id="logo" target="_blank">caMicroscope</a>
+            
+            
+            <input type="checkbox" id="toggle-1">
+            
+            <nav>
+                <ul>
+                    <li><a href="#home"><i class="icon-home" ></i>Home</a></li>
+                    <li><a href="https://github.com/viditvarshney/hd-imaging-Code-Challenge" target="_blank"><i class="icon-user" style="display:none"></i>Github</a></li>
+                    
+                </ul>
+            </nav>
+        </section>
+        
+    </header>
 
 
     <h1>High-Dimensional Medical Imaging Code Challenge </h1>
