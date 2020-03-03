@@ -35,4 +35,4 @@ In this Code Challenge I'm supposed to do basically 2 tasks
 ***
 Task to be done
 - ~~integrate the Code to the server~~
-- improves UI  ( modified )
+- ~~improves UI  ( modified )~~
