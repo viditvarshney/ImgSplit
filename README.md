@@ -25,14 +25,19 @@ In this Code Challenge I'm supposed to do basically 2 tasks
   `localhost:8090` in the browser
   
 - Upload the image 
-- Now run the image.py
+- That's it
 
 ***
 ### Then a window appears with four images , original image and all splited images,
 
-- Close that window then a new window appears by merging all three channels.
+- Close that window 
+- Then a new window appears by merging all three channels.
+
+#### A link will be given for your uploaded image.
 
 ***
 Task to be done
 - ~~integrate the Code to the server~~
-- improves UI  ( modified )
+- ~~improves UI  ( modified )~~
+- ~~integrate all files as a one service~~
+- ~~Update Readme~~
