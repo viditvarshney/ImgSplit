@@ -4,6 +4,4 @@ numpy==1.18.1
 pylint==2.4.4
 tornado==6.0.3
 Pillow
-python3-pip
-os
 glob2
