@@ -1,5 +1,16 @@
 # High-Dimensional Medical Imaging-Code-Challenge by Vidit Varshney
 ***
+
+## Updates 11-03-2020
+
+- not need to run the seperate files, improved Code
+- update requirements.txt, 
+- change image.py take images from ./img,
+- Update Readme
+
+
+***
+
 ## Description for What we do 
 
 In this Code Challenge I'm supposed to do basically 2 tasks
