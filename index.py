@@ -60,10 +60,13 @@ class uploadHandler(tornado.web.RequestHandler):
         fig.canvas.set_window_title("Splits the given image into RGB")
 
         cax_00 = axs[0,0].imshow(img)
+        fig.colorbar(cax_00, ax=axs[0,0])          # colorBar for each channel
         cax_01 = axs[0,1].imshow(red, cmap='Reds')
+        fig.colorbar(cax_01, ax=axs[0,1])
         cax_10 = axs[1,0].imshow(green, cmap='Greens')
+        fig.colorbar(cax_10, ax=axs[1,0])
         cax_11 = axs[1,1].imshow(blue, cmap='Blues')
-
+        fig.colorbar(cax_11, ax=axs[1,1])
         plt.show()
 
         # Developing the Matrix for every channel i.e RGB
