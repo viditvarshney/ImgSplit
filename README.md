@@ -19,6 +19,7 @@ In this Code Challenge I'm supposed to do basically 2 tasks
 
 ***
 
+
 ## Run on the local machine (under development)
 
 - Fork the repo
@@ -47,6 +48,16 @@ In this Code Challenge I'm supposed to do basically 2 tasks
 #### A link will be given for your uploaded image.
 
 ***
+
+### You will see the ouput slike this
+![Screenshot from 2020-03-29 01-15-15](https://user-images.githubusercontent.com/34159717/77832503-a822bc00-715c-11ea-883c-ee1f8f00c7d1.png)
+
+***
+
+![Screenshot from 2020-03-29 01-29-58](https://user-images.githubusercontent.com/34159717/77832532-d7392d80-715c-11ea-9982-d20f1df4454d.png)
+
+***
+
 Task to be done
 - ~~integrate the Code to the server~~
 - ~~improves UI  ( modified )~~
